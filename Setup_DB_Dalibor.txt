@@ -1,0 +1,7 @@
+- Run Docker
+- docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=yourStrong(!)Password' -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest
+- ConnectionString: "Server=localhost,1433; Database=CarSharingDB1;User=sa; Password=yourStrong(!)Password"
+- In project DAL folder run
+	- update: dotnet ef database update
+	- add mig: dotnet ef add-migration <name>
+
