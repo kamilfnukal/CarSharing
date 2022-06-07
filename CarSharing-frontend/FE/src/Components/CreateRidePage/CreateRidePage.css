@@ -1,0 +1,121 @@
+.form-container {
+    display: grid;
+    grid-template-columns: auto 220px 200px 220px;
+    grid-row-gap: 20px;
+}
+
+.form-container {
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-text {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    text-align: end;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.form-title__from {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.form-title__to {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.form-title__price {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.form-field__from {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.form-field__to {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.form-field__price {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.form-title__seats {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.form-field__seats {
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+
+.form-title__car {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.form-field__car {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.form-title__date {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.form-field__date {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.form-button-container {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.form-button {
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+    background-color: #5c635d;
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.ok-picture-container {
+    display: flex;
+    justify-content: center;
+}
+
+.no-car-error-container {
+    margin-top: 50px;
+}

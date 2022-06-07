@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CarSharingDAL.Entities
 {
@@ -10,7 +9,16 @@ namespace CarSharingDAL.Entities
         [Required]
         [Range(1, 5)]
         public int Rate { get; set; }
+
+        [Required]
+        public int ForUserId { get; set; }
+
+        [ForeignKey(nameof(ForUserId))]
+        public virtual User ForUser { get; set; }
+
         [MaxLength(150)]
         public string Comment { get; set; }
+
+        public int RideId { get; set; }
     }
 }

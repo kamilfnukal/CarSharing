@@ -1,0 +1,9 @@
+.rides-header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rides-header-text {
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}

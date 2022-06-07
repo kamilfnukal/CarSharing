@@ -1,0 +1,47 @@
+.homepage-response-panel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+    border-bottom: 2px blue solid;
+}
+
+.homepage-response-panel-backbutton {
+    margin-left: 200px;
+}
+
+.homepage-response-panel-pricefield {
+    margin-right: 100px;
+}
+
+.homepage-response-panel-price-container {
+    display: flex;
+    align-items: center;
+}
+
+.homepage-response-panel-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }

@@ -16,3 +16,6 @@
 * zobraziť históriu jázd, na ktorých bol užívateľ ako pasažier/šofér
 * adminovi spravovať celý portál (mazanie jázd/užívateľov, zmeny informácií...)
 * cez verejné API získať informácie o jazde (vrátane pasažierov)
+
+#### Backend: run CarSharingWebAPI (https://localhost:5001/index.html)
+#### Frontend: https://determined-noether-fb132d.netlify.app/login

@@ -1,0 +1,13 @@
+.error-panel-container {
+    display: flex;
+    margin-left: 100px;
+    align-content: center;
+    margin-bottom: 80px;
+}
+
+.error-panel-text {
+    margin-left: 60px;
+    align-self: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}

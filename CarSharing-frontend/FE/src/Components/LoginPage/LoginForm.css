@@ -1,0 +1,61 @@
+.login-container {
+    display: grid;
+    row-gap: 30px;
+}
+
+.login-form-error {
+    grid-row-start: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.LoginForm-container {
+    text-align: end;
+    margin-left: 70px;
+    grid-row-start: 1;
+}
+
+.LoginForm-header {
+    margin-top: 50px;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Trirong", serif;
+}
+
+.LoginForm-name {
+    margin-top: 30px;
+}
+
+.LoginForm-password {
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.button {
+    background-color: #5c635d;
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .submit-button {
+      
+  }
+
+  .switch-button {
+    font-size: 12px;
+    padding: 4px 4px;
+    margin-left: 8px;
+  }

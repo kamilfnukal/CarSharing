@@ -1,0 +1,150 @@
+.profile-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container {
+    display: grid;
+
+    margin-top: 50px;
+
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.profile-title {
+    font-size: 20px;
+    align-self: center;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+.profile-text {
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.profile-picture {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    display: flex;
+    justify-content: center;
+}
+
+.profile-title__username {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.profile-title__fullname {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.profile-title__age {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.profile-title__car {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.profile-text__username {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.profile-text__fullname {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.profile-text__age {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.profile-text__car {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
+
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile-button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+}
+
+.register-car-container {
+    display: grid;
+
+    row-gap: 40px;
+    margin-right: 200px;
+}
+
+.item-brand {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.item-seats {
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+.continue-register-car-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.continue-register-car-button {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(25, 0, 252);
+    border-radius: 16%;
+    padding: 14px;
+    width: 120px;
+    margin-left: 38px;
+}
+
+.register-car-page {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.car-row-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.car-row-car-brand {
+    margin-left: 0px;
+}
+
+.car-row-button {
+    margin-left: 30px;
+}
+
+.profile-button__edit-car {
+    grid-column-start: 3;
+    grid-row-start: 6;
+    align-self: center;
+}

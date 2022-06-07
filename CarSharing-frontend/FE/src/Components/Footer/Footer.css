@@ -1,0 +1,18 @@
+
+.footer-container {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 38px;   /* Height of the footer */
+    background-color: rgb(54, 54, 54);
+    border-top: 6px rgb(1, 1, 160) solid;
+    border-right: 2px blue solid;
+    border-left: 2px blue solid;
+ }
+
+.footer-text {
+    margin-left: 20px;
+    margin-top: 6px;
+    color: white;
+    font-size: 12px;
+}

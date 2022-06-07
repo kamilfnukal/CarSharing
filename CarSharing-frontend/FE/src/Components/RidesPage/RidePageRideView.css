@@ -1,0 +1,28 @@
+.ride-container {
+    display: flex;
+}
+
+.titles-container {
+
+}
+
+.title-text {
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.values-container {
+    
+
+    margin-left: 60px;
+    justify-content: center;
+}
+
+.value-text {
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+.last-item {
+    padding-bottom: 20px;
+}

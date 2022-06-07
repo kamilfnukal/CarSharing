@@ -1,0 +1,10 @@
+.enter-form-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.entry-page-container {
+    display: flex;
+    justify-content: center;
+}

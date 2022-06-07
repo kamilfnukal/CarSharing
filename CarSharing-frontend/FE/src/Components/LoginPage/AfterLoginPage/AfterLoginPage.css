@@ -1,0 +1,39 @@
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-bottom-container {
+    background-color: grey;
+}
+
+.notification-container {
+    display: flex
+}
+
+.notification-item {
+
+    margin-left: 50px;
+    align-self: center;
+    
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+}
+
+.notification-button {
+    margin-right: 100px;
+}
+
+.notification-img {
+    margin-left: 100px;
+}
+
+.welcome-ride-container {
+    display: flex;
+    justify-content: center;
+}
+
+.notification-ride {
+    margin-right: 350px;
+}
